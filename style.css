@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /* background: transparent;*/
+}
+.top-bar {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  background: #fff;
+  box-shadow: 0 2px 3px black;
+  z-index: 2;
+}
+ul.top-ul-bar {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  box-shadow: 1px 1px #000;
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+ul li.tbi {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+ul li.tbl{
+  display: flex;
+  flex-direction: line;
+  float: left;
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  font-size: 1.5em;
+}
+ul li.tbl a{
+  display: flex;
+  position: relative;
+  bottom: 3px;
+  text-decoration: none;
+  color: black;
+}
+ul li.tbl a p{
+  position: relative;
+  top: 2px;
+}
+ul li.tbl a:hover{
+  text-decoration: none;
+  color: black;
+}
+ul li.tbl .ytgologo{
+  width: 1.5em;
+  margin-right: 5px;
+}
+ul li.src {
+  position: absolute;
+  right: 60px;
+  top: 10px;
+  font-size: 20px;
+}
+#pn {
+  color: #fff;
+}
+.prna {
+  height: 30px;
+  width: 30px;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.foot-bar {
+  position: fixed;
+  /*top: 90vh;*/
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  background: #fff;
+  border-top: 2px solid #000;
+}
+/*
+.content{
+  display: inline-block;
+  width: 100%;
+}*/
+.thumbnail {
+  display: block;
+  width: 95%;
+  margin: auto;
+  margin-top: 6px;
+}
+.files {
+  color: black;
+}
+.logo {
+  width: 45px;
+  display: inline;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+.video-title {
+  display: inline;
+  font-weight: 400;
+
+  margin-top: 0;
+  font-size: 15px;
+  text-align: left;
+  position: absolute;
+}
+.video-title::selection{
+  background: red;
+  color: gray;
+}
+.details {
+  display: block;
+  margin: 9px;
+}
+.channel-name {
+  display: inline;
+  margin-left: 50px;
+  margin-top: 0;
+  font-size: 12px;
+  position: relative;
+}
+.logokadiv {
+  display: inline-block;
+  padding: 0;
+}
+.content {
+  margin-bottom: 40px;
+  position: relative;
+  top: 40px;
+}
+.foot-bar {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -1px 2px black;
+}
+nav.footer-nav {
+  height: 100%;
+  width: 100%;
+}
+nav.footer-nav ul {
+  display: flex;
+}
+nav.footer-nav ul li {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  place-self: center;
+  position: relative;
+  justify-content: center;
+}
+nav.footer-nav ul li a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transition: .7s;
+}
+nav.footer-nav ul li a i {
+  font-size: 18px;
+  color: black;
+  display: flex;
+  place-self: center;
+}
+nav.footer-nav ul li a:hover {
+  background: rgba(210,88,88,0.3);
+  transition: .3s;
+}
+.jdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p.jumptotop {
+  display: inline;
+  color: #fff;
+  background: gray;
+  padding: 6px 14px;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+}
+p.jumptotop:hover {
+  text-decoration: none;
+  transition: 1s;
+}
+a.jumptop{
+  text-decoration: none;
+}
+a.jumptop:hover{
+  text-decoration: none;
+}
